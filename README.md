@@ -25,7 +25,7 @@ Secured mechanism for checking out from theShop( Credit card verification mechan
 Uploading Most Purchased Items in eachcategory of products in the Shop like Apparel,Kitchen accessories, Bath accessories,
 Food items etc.
 Brief overview of the technology
- 
+
 
 HTML: HTML is used to create and save webdocument. E.g. Notepad/Notepad++
 CSS : (Cascading Style Sheets) Create attractiveLayout
@@ -55,6 +55,3 @@ To Login as admin put inside URL:”http://localhost/store”
 user login details:
 Login Id: yugeshverma@gmail.com
 Password:123456
-
-
-visit- https://projkectworlds.in
