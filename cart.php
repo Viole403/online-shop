@@ -18,7 +18,7 @@
     <?php
     }else{
         while($row=mysqli_fetch_array($user_products_result)){
-            $sum=$sum+$row['price']; 
+            $sum=$sum+$row['price'];
        }
     }
 ?>
@@ -40,7 +40,7 @@
     </head>
     <body>
         <div>
-            <?php 
+            <?php
                require 'header.php';
             ?>
             <br>
@@ -50,12 +50,12 @@
                         <tr>
                             <th>Item Number</th><th>Item Name</th><th>Price</th><th></th>
                         </tr>
-                       <?php 
+                       <?php
                         $user_products_result=mysqli_query($con,$user_products_query) or die(mysqli_error($con));
                         $no_of_user_products= mysqli_num_rows($user_products_result);
                         $counter=1;
                        while($row=mysqli_fetch_array($user_products_result)){
-                           
+
                          ?>
                         <tr>
                             <th><?php echo $counter ?></th><th><?php echo $row['name']?></th><th><?php echo $row['price']?></th>
@@ -72,8 +72,8 @@
             <footer class="footer">
                <div class="container">
                 <center>
-                   <p>Copyright &copy <a href="https://projectworlds.in">Projectworlds</a> Store. All Rights Reserved.</p>
-                   <p>This website is developed by Yugesh Verma</p>
+                   <p>Copyright &copy Projectworlds Store. All Rights Reserved.</p>
+
                </center>
                </div>
            </footer>

@@ -38,11 +38,11 @@
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-                            </div> 
+                            </div>
                             <div class="form-group">
                                 <input type="password" class="form-control" name="password" placeholder="Password(min. 6 characters)" required="true" pattern=".{6,}">
                             </div>
-                            <div class="form-group"> 
+                            <div class="form-group">
                                 <input type="tel" class="form-control" name="contact" placeholder="Contact" required="true">
                             </div>
                             <div class="form-group">
@@ -62,8 +62,8 @@
            <footer class="footer">
                <div class="container">
                 <center>
-                   <p>Copyright &copy <a href="https://projectworlds.in">Projectworlds</a> Store. All Rights Reserved.</p>
-                   <p>This website is developed by Yugesh Verma</p>
+                   <p>Copyright &copy Projectworlds Store. All Rights Reserved.</p>
+
                </center>
                </div>
            </footer>

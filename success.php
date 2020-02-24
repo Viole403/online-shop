@@ -7,7 +7,7 @@
         $user_id=$_GET['id'];
         $confirm_query="update users_items set status='Confirmed' where user_id=$user_id";
         $confirm_query_result=mysqli_query($con,$confirm_query) or die(mysqli_error($con));
-        
+
     }
 ?>
 <!DOCTYPE html>
@@ -47,8 +47,8 @@
             <footer class="footer">
                <div class="container">
                 <center>
-                   <p>Copyright &copy <a href="https://projectworlds.in">Projectworlds</a> Store. All Rights Reserved.</p>
-                   <p>This website is developed by Yugesh Verma</p>
+                   <p>Copyright &copy Projectworlds Store. All Rights Reserved.</p>
+
                </center>
                </div>
            </footer>
